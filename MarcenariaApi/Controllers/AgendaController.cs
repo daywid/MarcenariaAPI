@@ -29,7 +29,7 @@ namespace MarcenariaApi.Controllers
 
         [HttpGet()]
         [Route("buscar/{id}")]
-        public async Task<ActionResult<Agenda>> GetAgenda(int id)
+        public async Task<ActionResult<Agenda>> Buscar([FromRoute] int id)//GetAgenda(int id)
         {
             var agenda = await _context.Agendas.FindAsync(id);
 
@@ -48,11 +48,11 @@ namespace MarcenariaApi.Controllers
             _context.Agendas.Add(agenda);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetAgenda), new { id = agenda.Id }, agenda);
+            return CreatedAtAction(nameof(Buscar), new { id = agenda.Id }, agenda);
         }
 
-        [HttpPut("{id}")]
-        [Route("atualizar")]
+        [HttpPut()]
+        [Route("atualizar/{id}")]
         public async Task<IActionResult> UpdateAgenda(int id, Agenda agenda)
         {
             if (id != agenda.Id)
@@ -81,8 +81,8 @@ namespace MarcenariaApi.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{id}")]
-        [Route("deletar")]
+        [HttpDelete()]
+        [Route("deletar/{id}")]
         public async Task<IActionResult> DeleteAgenda(int id)
         {
             var agenda = await _context.Agendas.FindAsync(id);
