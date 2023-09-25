@@ -1,10 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using MarcenariaApi.Models;
-
 namespace MarcenariaApi.Data
 {
     public class MarcenariaDbContext: DbContext
@@ -13,9 +8,11 @@ namespace MarcenariaApi.Data
     public DbSet<Funcionario> Funcionarios { get; set; }
     public DbSet<Agenda> Agendas { get; set; }
 
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("DataSource=estacionamento.db;Cache=Shared");
+        optionsBuilder.UseSqlServer("DataSource=estacionamento.db;Cache=Shared");//
+        //UseSqlite("DataSource=estacionamento.db;Cache=Shared");
     }
 
 }
