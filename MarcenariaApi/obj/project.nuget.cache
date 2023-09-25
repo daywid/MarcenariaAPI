@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "0VNFC6e9xmPCs0+EUh//CxGhnJ73gwL6f0iPWHa6VtZKh2rRVoZvODiLSwZnnJhfeAM50nCgAXdAWIamHX4Lig==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\daywi\\OneDrive\\Documentos\\GitHub\\MarcenariaAPI\\MarcenariaApi\\MarcenariaApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\daywi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\daywi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\daywi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\daywi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\daywi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\daywi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
