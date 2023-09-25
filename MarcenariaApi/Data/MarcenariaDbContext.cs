@@ -11,7 +11,8 @@ namespace MarcenariaApi.Data
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("DataSource=estacionamento.db;Cache=Shared");//
+        optionsBuilder.UseSqlite("DataSource=estacionamento.db;Cache=Shared");
+        //UseSqlServer("DataSource=estacionamento.db;Cache=Shared");//
         //UseSqlite("DataSource=estacionamento.db;Cache=Shared");
     }
 
