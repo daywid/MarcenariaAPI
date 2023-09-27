@@ -12,7 +12,6 @@ namespace MarcenariaApi.Models
         public DateTime Data { get; set; }
         public string? Tipo { get; set; }
         
-        //Como transformar em foreign key?
         public int FuncionarioId { get; set; }
     }
 }
