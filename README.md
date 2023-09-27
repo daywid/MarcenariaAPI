@@ -1,6 +1,6 @@
 # MarcenariaAPI
 
-A MarcenariaAPI é uma API RESTful desenvolvida para gerenciar informações sobre funcionários e agendas em uma marcenaria fictícia. Esta API permite a criação, leitura, atualização e exclusão de registros de funcionários e agendas, bem como a associação de agendas a funcionários através de uma chave estrangeira.
+A MarcenariaAPI é uma API RESTful desenvolvida para gerenciar informações sobre funcionários e agendas em uma marcenaria. Esta API permite a criação, leitura, atualização e exclusão de registros de funcionários e agendas, bem como a associação de agendas a funcionários através de uma chave estrangeira.
 
 ## Tecnologias Utilizadas
 
