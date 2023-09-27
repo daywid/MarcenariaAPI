@@ -33,10 +33,10 @@ A MarcenariaAPI é uma API RESTful desenvolvida para gerenciar informações sob
     "DefaultConnection": "Data Source=marcenaria.db"
    }
 
-4.Abra o terminal e navegue até a pasta raiz do projeto e execute as migrações para criar o banco de dados:
+4. Abra o terminal e navegue até a pasta raiz do projeto e execute as migrações para criar o banco de dados:
       
-      ```bash
-      dotnet ef database update
+   ```bash
+   dotnet ef database update
 
 ### Endpoints da API
 GET /api/Funcionario/listar: Retorna a lista de todos os funcionários cadastrados.
