@@ -4,7 +4,7 @@ A MarcenariaAPI é uma API RESTful desenvolvida para gerenciar informações sob
 
 ## Tecnologias Utilizadas
 
-- ASP.NET Core 3.1
+- ASP.NET Core 
 - Entity Framework Core
 - SQLite (banco de dados)
 - Swagger (documentação da API)
