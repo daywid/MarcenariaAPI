@@ -41,25 +41,28 @@ A MarcenariaAPI é uma API RESTful desenvolvida para gerenciar informações sob
 ### Endpoints da API
 A API possui endpoints para as seguintes entidades:
 
-# Funcionário
+## Funcionário
 GET /api/Funcionario/listar: Retorna a lista de todos os funcionários cadastrados.
 GET /api/Funcionario/buscar/{id}: Retorna um funcionário específico com base no ID.
 POST /api/Funcionario/cadastrar: Cadastra um novo funcionário.
 PUT /api/Funcionario/atualizar/{id}: Atualiza os detalhes de um funcionário existente.
 DELETE /api/Funcionario/deletar/{id}: Deleta um funcionário com base no ID.
-# Agenda
+
+## Agenda
 GET /api/Agenda/listar: Retorna a lista de todas as agendas cadastradas.
 GET /api/Agenda/buscar/{id}: Retorna uma agenda específica com base no ID.
 POST /api/Agenda/cadastrar: Cadastra uma nova agenda e associa a um funcionário existente.
 PUT /api/Agenda/atualizar/{id}: Atualiza os detalhes de uma agenda existente.
 DELETE /api/Agenda/deletar/{id}: Deleta uma agenda com base no ID.
-# Fornecedor
+
+## Fornecedor
 GET /api/Fornecedor/listar: Retorna a lista de todos os fornecedores cadastrados.
 GET /api/Fornecedor/buscar/{id}: Retorna um fornecedor específico com base no ID.
 POST /api/Fornecedor/cadastrar: Cadastra um novo fornecedor.
 PUT /api/Fornecedor/atualizar/{id}: Atualiza os detalhes de um fornecedor existente.
 DELETE /api/Fornecedor/deletar/{id}: Deleta um fornecedor com base no ID.
-#Cliente
+
+## Cliente
 GET /api/Cliente/listar: Retorna a lista de todos os clientes cadastrados.
 GET /api/Cliente/buscar/{id}: Retorna um cliente específico com base no ID.
 POST /api/Cliente/cadastrar: Cadastra um novo cliente.
