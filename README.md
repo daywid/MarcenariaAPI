@@ -57,16 +57,24 @@ DELETE /api/Agenda/deletar/{id}: Deleta uma agenda com base no ID.
 
 ## Fornecedor
 GET /api/Fornecedor/listar: Retorna a lista de todos os fornecedores cadastrados.
+
 GET /api/Fornecedor/buscar/{id}: Retorna um fornecedor específico com base no ID.
+
 POST /api/Fornecedor/cadastrar: Cadastra um novo fornecedor.
+
 PUT /api/Fornecedor/atualizar/{id}: Atualiza os detalhes de um fornecedor existente.
+
 DELETE /api/Fornecedor/deletar/{id}: Deleta um fornecedor com base no ID.
 
 ## Cliente
 GET /api/Cliente/listar: Retorna a lista de todos os clientes cadastrados.
+
 GET /api/Cliente/buscar/{id}: Retorna um cliente específico com base no ID.
+
 POST /api/Cliente/cadastrar: Cadastra um novo cliente.
+
 PUT /api/Cliente/atualizar/{id}: Atualiza os detalhes de um cliente existente.
+
 DELETE /api/Cliente/deletar/{id}: Deleta um cliente com base no ID.
 
 
